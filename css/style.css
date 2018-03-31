@@ -3,7 +3,8 @@ body {
 }
 
 .background {
-  margin-top: 50%;
-  margin-bottom: 50%;
+  
+  padding-top: 50%;
+  padding-bottom: 50%;
   background-image: url("https://i.ytimg.com/vi/nkCfU7dPMlo/maxresdefault.jpg");
 }
