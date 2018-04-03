@@ -1,10 +1,36 @@
 body {
-  background-color: #353b48
+    background-color: rgb(73, 73, 73);
+    background-image: url(../resources/halbzwilling_channel_background_image_blur.jpg);
+    font-family: din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    color: #ACA9A9;
 }
 
-.background {
-  
-  padding-top: 50%;
-  padding-bottom: 50%;
-  background-image: url("https://i.ytimg.com/vi/nkCfU7dPMlo/maxresdefault.jpg");
+nav {
+    cursor: pointer
+}
+
+ul {
+    list-style-type: none;
+    padding: 15px;
+}
+
+li {
+    display: inline;
+    padding: inherit;
+    margin: auto;
+    border: 1px solid #d3d3d3
+}
+
+a {
+    color: #ACA9A9;
+    text-decoration: none
+}
+
+li:hover:not(.selected) {
+    background-color: #d3d3d3
+}
+
+.selected {
+    background-color: #5f5e5e;
+    cursor: default
 }
