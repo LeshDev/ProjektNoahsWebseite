@@ -1,5 +1,5 @@
 # ProjektNoahsWebseite
-Fans creating a webseite for a youtuber
+Fans creating a website for a YouTuber
 
 ## Links
 - Discord: https://discord.gg/6gQ4DQv
