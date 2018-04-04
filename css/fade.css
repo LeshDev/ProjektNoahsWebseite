@@ -1,10 +1,10 @@
 ﻿.fadein {
     margin-top: 25px;
     text-align: center;
-    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 5s; /* Firefox < 16 */
-    -o-animation: fadein 5s; /* Opera < 12.1 */
-    animation: fadein 5s;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
 }
 
 @keyframes fadein {
