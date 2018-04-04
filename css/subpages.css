@@ -3,3 +3,7 @@ body {
     color: #ACA9A9;
     font-family: din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
 }
+
+a:visited:not(:li) {
+    color: #0000E4
+}

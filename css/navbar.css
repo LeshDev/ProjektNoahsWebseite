@@ -19,7 +19,7 @@ li {
     transition: .3s;
 }
 
-a {
+li a {
     color: #ACA9A9;
     text-decoration: none;
     display: block;
