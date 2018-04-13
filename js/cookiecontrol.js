@@ -1,5 +1,5 @@
 if (!checkCookie("acceptcookies"))
-    document.write('<script type="text/javascript" id="cookieinfo" src="js/cookieinfo.min.js" data-bg="#373737" data-fg="#ACA9A9" data-cookie="acceptcookies" data-moreinfo="cookies.html"></script>');
+    document.write('<script type="text/javascript" id="cookieinfo" src="js/cookieinfo.min.js" data-bg="#373737" data-fg="#ACA9A9" data-cookie="acceptcookies" data-moreinfo="cookies_english.html"></script>');
 
 function getCookie(cname) {
     var name = cname + "=";

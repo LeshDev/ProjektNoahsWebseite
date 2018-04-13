@@ -1,0 +1,24 @@
+﻿img:not(.mainpage) {
+    width: 7.5%;
+    height: 80%;
+}
+img.mainpage {
+    width: 100%;
+}
+img {
+    cursor: pointer;
+    border: 1px solid #d9d9d9
+}
+
+div.flag {
+    text-align: right
+}
+
+img.selected {
+    border: 1px solid black;
+    cursor: default
+}
+
+img:hover:not(.selected) {
+    border: 1px solid gray
+}
