@@ -1,8 +1,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #242424;
+  background-color: rgb(73, 73, 73);
   margin: 0;
 }
+
 nav {
   position: relative;
   min-height: 60px;
@@ -16,9 +17,11 @@ nav {
   animation: .6s fadein linear;
   /*todo: media query*/
 }
+
 nav a {
   text-decoration: none;
 }
+
 nav .main_referral {
   font-size: 26px;
   color: rgba(179, 179, 179, 0.82);
@@ -29,18 +32,21 @@ nav .main_referral {
   left: 0;
   transform: translateY(-50%);
 }
+
 nav .nav {
   font-size: 29px;
   display: inline-block;
   grid-area: nav;
   line-height: 60px;
 }
+
 nav .nav .nav_item {
   color: #b3b3b3;
   padding: 10px 15px;
   position: relative;
   transition: all .15s;
 }
+
 nav .nav .nav_item:not(:last-child)::after {
   content: '|';
   color: #b3b3b3;
@@ -49,34 +55,48 @@ nav .nav .nav_item:not(:last-child)::after {
   bottom: 13px;
   animation: 0.7s fontsizebuildup ease-out;
 }
+
 nav .nav .nav_item:hover {
   background-color: rgba(179, 179, 179, 0.1);
 }
-nav .lang_flags {
+
+nav .config {
   grid-area: lang;
   display: inline-block;
   margin-right: 25px;
 }
-nav .lang_flags .flag {
+
+nav .config .flag {
   cursor: pointer;
   padding: 8px 6px;
   margin: 0 1px;
   transition: all .1s;
 }
-nav .lang_flags .flag.mainpage {
+
+nav .config .flag.mainpage {
   height: 30px;
 }
-nav .lang_flags .flag:not(.mainpage) {
+
+nav .config .theme {
+  height: 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+nav .config .flag:not(.mainpage) {
   width: 7.5%;
   height: 80%;
 }
-nav .lang_flags .flag.selected {
+
+nav .config .flag.selected {
   border-bottom: 2px solid rgba(161, 161, 161, 0.75);
 }
-nav .lang_flags .flag:hover:not(.selected) {
+
+nav .config .flag:hover:not(.selected) {
   border-bottom: 2px solid rgba(179, 179, 179, 0.95);
   animation: 1s horizontalborderbuildup;
 }
+
 @supports (display: grid) {
   nav {
     position: static;
@@ -90,6 +110,7 @@ nav .lang_flags .flag:hover:not(.selected) {
     line-height: normal;
   }
 }
+
 @keyframes fontsizebuildup {
   from {
     font-size: 0;
@@ -97,6 +118,7 @@ nav .lang_flags .flag:hover:not(.selected) {
     right: -5px;
   }
 }
+
 @keyframes fadein {
   from {
     opacity: 0;
